@@ -16,12 +16,12 @@ A system that analyzes supply chain data using Python and provides insights thro
 ⸻
 
 Team Members
-	1.	Hesham Ahmed Yahia Lotfy
-	2.	Abdallah Hossam Eldin 
-	3.	Fatma Ahmed Ali Fahmy
-	4.	Nada Abdelghany Abdeltwap
-	5.	Marim Ibrahim Abdelsalam
-    6.  Mariam Gamal Abdelgawad
+1.	Hesham Ahmed Yahia Lotfy
+2.	Abdallah Hossam Eldin 
+3.	Fatma Ahmed Ali Fahmy
+4.	Nada Abdelghany Abdeltwap
+5.	Marim Ibrahim Abdelsalam
+6.  Mariam Gamal Abdelgawad
 ⸻
 
 1. Research & Analysis
