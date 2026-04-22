@@ -1,21 +1,21 @@
 # 📦 Supply Chain Analysis – DEPI Graduation Project
 
 ## 📌 Project Overview
-This project is the final graduation milestone for the **Digital Egypt Pioneers Initiative (DEPI)**. It showcases a professional end-to-end data engineering and analytics workflow.
+This project is the final graduation milestone for the **Digital Egypt Pioneers Initiative (DEPI)**. It showcases a professional end-to-end data engineering and analytics workflow, starting from raw data to a structured SQL-based Star Schema and dynamic dashboards.
 
 ---
 
 ## 🎬 Project Showcase (Interactive Demo)
 
 ### 📊 Dynamic Excel Dashboard in Action
-> **Watch:** Our dynamic dashboard handling complex supply chain queries.
-[video width="video/video.mp4"]
-*(If the video doesn't load, you can find it in the 'Media' folder)*
+> **Watch:** Our dynamic dashboard handling complex supply chain queries and real-time filtering.
+https://github.com/user-attachments/assets/6e2b6a88-2921-432a-9286-4f40d8606c9a
+
+*(If the video doesn't load, you can find the file in the `Assets/` folder)*
 
 ### 🧱 SQL Data Modeling (The Backend)
-> **Watch:** The process of data transformation and Star Schema creation using SQL.
-[video width="100%" src="رابط_فيديو_السيكول_هنا.mp4"]
-*Architecture: 1 Fact Table connected to 4 Dimension Tables for optimized querying.*
+> **Watch:** The process of data transformation, normalization, and Star Schema creation using SQL scripts.
+https://github.com/user-attachments/assets/6e2b6a88-2921-432a-9286-4f40d8606c9a
 
 ---
 
@@ -30,31 +30,31 @@ This project is the final graduation milestone for the **Digital Egypt Pioneers 
 ## ⚙️ Technical Data Pipeline
 
 ### 1️⃣ Phase 1: SQL Engineering (The Engine)
-We prioritized building a solid database foundation first to ensure data integrity.
+We prioritized building a solid database foundation first to ensure data integrity and query performance.
 * **Tool:** SQL Server.
-* **Process:** * Automated data cleaning using SQL scripts.
+* **Process:** * Automated data cleaning using optimized SQL scripts.
     * Segregated raw data into **Fact** and **Dimension** tables.
-    * Established Primary and Foreign Key relationships to prevent data redundancy.
-    * Optimized structure to be "Plug-and-Play" for Power BI and Python.
+    * Established Primary and Foreign Key relationships to maintain referential integrity.
+    * Designed the structure to be "Plug-and-Play" for Power BI and Python.
 
 ### 2️⃣ Phase 2: Excel Analytics & Dashboarding
-* **ETL:** Final validation through Power Query.
+* **ETL:** Final data validation and shaping through Power Query.
 * **Visualization:** Built a "Control Tower" dashboard for supply chain managers to track:
     * **Logistics Efficiency:** Shipping vs. Delivery lead times.
-    * **Financial Impact:** Revenue and Profitability by category and region.
+    * **Financial Impact:** Revenue and Profitability analysis by category and geography.
 
 ### 3️⃣ Phase 3: Future Roadmap 🚀
-* **Python:** Exploratory Data Analysis (EDA) & Predictive Modeling.
-* **Power BI:** Advanced DAX measures and cloud-based reporting.
+* **Python:** Exploratory Data Analysis (EDA) & Predictive modeling for demand forecasting.
+* **Power BI:** Advanced DAX measures and cloud-based interactive reporting.
 
 ---
 
 ## 📂 Project Structure & Links
 | Stage | Description | Access Link |
 | :--- | :--- | :--- |
-| 📥 **Raw Data** | Original Kaggle dataset. | [View Folder](https://drive.google.com/drive/folders/1lp2r_hl3nFiquX84-FJL-6VHrraQq_n3) |
-| 🧱 **SQL Scripts** | DDL & DML scripts for the Star Schema. | [View Scripts](https://drive.google.com/drive/folders/1lp2r_hl3nFiquX84-FJL-6VHrraQq_n3) |
-| 📊 **Final Dashboard** | Interactive Excel file (.xlsx). | [Download File](https://drive.google.com/drive/folders/1lp2r_hl3nFiquX84-FJL-6VHrraQq_n3) |
+| 📥 **Raw Data** | Original Kaggle dataset (Pre-processing). | [View Folder](https://drive.google.com/drive/folders/1lp2r_hl3nFiquX84-FJL-6VHrraQq_n3) |
+| 🧱 **SQL Scripts** | DDL & DML scripts for the Star Schema implementation. | [View Scripts](https://drive.google.com/drive/folders/1lp2r_hl3nFiquX84-FJL-6VHrraQq_n3) |
+| 📊 **Final Dashboard** | Interactive Excel Dashboard (.xlsx). | [Download File](https://drive.google.com/drive/folders/1lp2r_hl3nFiquX84-FJL-6VHrraQq_n3) |
 
 ---
 
