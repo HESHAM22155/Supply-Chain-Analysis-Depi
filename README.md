@@ -1,7 +1,9 @@
 # 📦 Supply Chain Analysis – DEPI Graduation Project
 
 ## 📌 Project Overview
-This project is the final graduation milestone for the **Digital Egypt Pioneers Initiative (DEPI)**. It showcases a professional end-to-end data engineering and analytics workflow, starting from raw data to a structured SQL-based Star Schema and dynamic dashboards.
+This project is the final graduation milestone for the **Digital Egypt Pioneers Initiative (DEPI)**. It showcases a professional end-to-end data engineering and analytics workflow, transforming raw logistics data into a structured SQL-based Star Schema and dynamic dashboards.
+
+The goal is to provide a decision-support system that enhances delivery efficiency and optimizes supply chain costs.
 
 ---
 
@@ -10,28 +12,24 @@ This project is the final graduation milestone for the **Digital Egypt Pioneers 
 ### 📊 Dynamic Excel Dashboard in Action
 > **Watch:** Our dynamic dashboard handling complex supply chain queries and real-time filtering.
 
-<div align="center">
-  <video src="https://github.com/user-attachments/assets/6e2b6a88-2921-432a-9286-4f40d8606c9a" width="100%" controls autoplay muted loop>
-  </video>
-</div>
+https://github.com/user-attachments/assets/6e2b6a88-2921-432a-9286-4f40d8606c9a
+
+*(If the video doesn't load instantly, please refresh the page or find the file in the 'Assets' folder)*
 
 ---
 
 ### 🧱 SQL Data Modeling (The Backend)
 > **Watch:** The process of data transformation, normalization, and Star Schema creation using SQL scripts.
 
-<div align="center">
-  <video src="https://github.com/user-attachments/assets/6e2b6a88-2921-432a-9286-4f40d8606c9a" width="100%" controls muted>
-  </video>
-</div>
+https://github.com/user-attachments/assets/6e2b6a88-2921-432a-9286-4f40d8606c9a
 
 ---
 
 ## 🎯 Strategic Objectives
-* **Data Sourcing:** Acquired comprehensive datasets from **Kaggle**.
+* **Data Sourcing:** Identified and acquired comprehensive datasets from **Kaggle**.
 * **Data Architecture:** Transformed raw data into a scalable **Star Schema**.
-* **Database Engineering:** Implemented a robust SQL-based environment.
-* **Business Intelligence:** Developed dynamic dashboards for tracking performance.
+* **Database Engineering:** Implemented a robust SQL-based environment for data integrity.
+* **Business Intelligence:** Developed dynamic dashboards for real-time KPI tracking.
 
 ---
 
