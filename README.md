@@ -52,9 +52,9 @@ This project delivers a **comprehensive Data Analytics solution** designed to tr
 
 ### 🐍 4. Python Analysis (EDA Layer)
 **🎯 Objective:** Extract deep statistical insights and business drivers using data science libraries.
-* **Analyses:** Univariate/Bivariate analysis, Pearson correlation for profit drivers, Trend Analysis, and Shipping Performance.
+* **Analyses:** Univariate/Bivariate analysis, Pearson correlation for profit drivers, and Trend Analysis.
 * **Libraries:** Pandas, NumPy, Matplotlib, Seaborn.
-* **File:** `python/ecommerce_analysis.ipynb`
+* **📂 Source Code:** [View Jupyter Notebook (Python Code)](./Suply%20chain/Python/ecommerce_analysis.ipynb)
 
 ---
 
