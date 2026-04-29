@@ -1,95 +1,103 @@
-🚀 Supply Chain Analysis
-DEPI Graduation Project | End-to-End Data Analytics Solution
+# 🚀 Supply Chain Analysis  
+### DEPI Graduation Project | End-to-End Data Analytics Solution  
 
-📌 Project Overview
+![Banner](./images/project_banner.png)
 
-This project represents the final graduation milestone for the Digital Egypt Pioneers Initiative (DEPI).
+---
 
-It demonstrates a complete data engineering and analytics pipeline, transforming raw, unstructured logistics data into a high-performance SQL-based Star Schema, followed by advanced analytics and interactive dashboards.
+## 📌 Project Overview  
+This project represents the final graduation milestone for the **Digital Egypt Pioneers Initiative (DEPI)**.  
 
-🎯 The main objective is to build a decision-support system that improves delivery efficiency and optimizes supply chain costs.
+It demonstrates a complete data engineering and analytics pipeline, transforming raw logistics data into a structured **SQL-based Star Schema**, followed by analytics and interactive dashboards.
 
-🎬 Project Showcase
-📊 Excel Dashboard (Interactive Demo)
+🎯 The goal is to build a decision-support system that enhances delivery efficiency and optimizes supply chain costs.
 
-A dynamic dashboard designed to simulate real-world decision-making.
+---
 
-🎥 Demo Video:
-https://github.com/user-attachments/assets/6e2b6a88-2921-432a-9286-4f40d8606c9a
+## 🎬 Project Showcase  
 
-🧱 SQL Data Modeling (Backend Process)
+### 📊 Excel Dashboard (Interactive Demo)  
+🎥 Demo Video:  
+https://github.com/user-attachments/assets/6e2b6a88-2921-432a-9286-4f40d8606c9a  
 
-Demonstrating how raw data was transformed into a structured analytical model.
+---
 
-🎥 Demo Video:
-https://github.com/user-attachments/assets/6e2b6a88-2921-432a-9286-4f40d8606c9a
+### 🧱 SQL Data Modeling (Backend Process)  
+🎥 Demo Video:  
+https://github.com/user-attachments/assets/6e2b6a88-2921-432a-9286-4f40d8606c9a  
 
-🎯 Strategic Objectives
-📥 Data Sourcing: Collected datasets from Kaggle
-🧱 Data Architecture: Designed a scalable Star Schema
-🗄️ Database Engineering: Built a structured SQL environment
-📊 Business Intelligence: Delivered dashboards for KPI tracking
-⚙️ Technical Data Pipeline
-1️⃣ SQL Engineering (Core Layer)
+---
 
-The foundation of the project focused on building a reliable and scalable database.
+## 🎯 Strategic Objectives  
 
-Key Contributions:
+- 📥 Data Sourcing: Collected datasets from Kaggle  
+- 🧱 Data Architecture: Designed a scalable Star Schema  
+- 🗄️ Database Engineering: Built a structured SQL environment  
+- 📊 Business Intelligence: Developed dashboards for KPI tracking  
 
-Cleaned and transformed raw data using optimized SQL scripts
-Split data into Fact & Dimension tables
-Implemented Primary & Foreign Keys
-Ensured data integrity and performance optimization
-Designed a model ready for integration with Power BI & Python
+---
 
-📎 /sql/
+## ⚙️ Technical Data Pipeline  
 
-2️⃣ Excel Analytics & Dashboard
+### 1️⃣ SQL Engineering (Core Layer)  
 
-ETL Layer:
+**Tool:** SQL Server  
 
-Data shaping and validation using Power Query
+**Process:**
+- Cleaned and transformed raw data using SQL  
+- Split data into Fact & Dimension tables  
+- Applied Primary & Foreign Keys  
+- Ensured data integrity and performance  
 
-Dashboard Features:
+📎 `/sql/`
 
-📦 Logistics Performance (Shipping vs Delivery)
-💰 Revenue & Profitability Analysis
-🌍 Geographic Insights
-🎛️ Interactive filters and slicers
+---
 
-📎 /excel/dashboard.xlsx
+### 2️⃣ Excel Dashboard  
 
-📷
+**ETL:**
+- Data shaping using Power Query  
 
+**Features:**
+- 📦 Logistics Performance  
+- 💰 Revenue & Profitability  
+- 🌍 Geographic Insights  
+- 🎛️ Interactive Filters  
 
-3️⃣ Python Analysis (Advanced Insights)
+📎 `/excel/dashboard.xlsx`  
 
-Planned & Implemented:
+![Excel Dashboard](./images/excel_dashboard.png)
 
-Exploratory Data Analysis (EDA)
-Trend analysis
-Insight generation using queries
+---
 
-📎 /python/analysis.ipynb
+### 3️⃣ Python Analysis  
 
-4️⃣ Power BI Dashboard (Final Layer) ⚡
+- Exploratory Data Analysis (EDA)  
+- Trend Analysis  
+- Insights Generation  
 
-A fully interactive business intelligence solution:
+📎 `/python/analysis.ipynb`
 
-Features:
+---
 
-Dynamic KPIs
-Time Intelligence (MTD / YTD)
-Drill-down & Drill-through
-Advanced filtering
+### 4️⃣ Power BI Dashboard ⚡  
 
-🔗 Live Dashboard:
-👉 https://your-powerbi-link.com
+**Features:**
+- Dynamic KPIs  
+- Time Intelligence (MTD / YTD)  
+- Drill-down & Drill-through  
+- Interactive visuals  
 
-📷
+🔗 Live Dashboard:  
+https://your-powerbi-link.com  
 
+![Power BI Dashboard](./images/powerbi_dashboard.png)
 
-📂 Project Structure
+---
+
+## 📂 Project Structure  
+
+```bash
 Supply-Chain-Analysis/
 │
 ├── data/
@@ -111,41 +119,3 @@ Supply-Chain-Analysis/
 │   └── powerbi_dashboard.png
 │
 └── README.md
-🔥 Key Achievements
-✔️ Built complete ETL → Modeling → Visualization pipeline
-✔️ Converted messy data into structured analytical model
-✔️ Designed scalable Star Schema
-✔️ Delivered dashboards using Excel & Power BI
-✔️ Generated actionable business insights
-📊 Sample Insights
-Top-performing products contribute the highest share of revenue
-Gap between Delivered vs Installed indicates operational inefficiency
-Some categories show high revenue but low profitability
-Seasonal patterns impact logistics performance
-👥 Team
-Hesham Ahmed Yahia Lotfy – Data Analyst
-Abdallah Hossam Eldin
-Fatma Ahmed Ali Fahmy
-Nada Abdelghany Abdeltwap
-Marim Ibrahim Abdelsalam
-Mariam Gamal Abdelgawad
-
-👩‍🏫 Supervisor: Instr. Sara Besher
-
-🛠️ Tools & Technologies
-SQL Server
-Excel (Power Query + Dashboarding)
-Python
-Power BI
-Kaggle
-💡 Business Impact
-
-This solution enables:
-
-Better supply chain visibility
-Improved operational efficiency
-Data-driven decision making
-Cost optimization
-⭐ Final Note
-
-This project reflects a real-world data analytics workflow — from raw data to business insights — aligning with industry best practices in Data Engineering & Business Intelligence.
