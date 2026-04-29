@@ -22,24 +22,28 @@ This project delivers a **comprehensive Data Analytics solution** designed to tr
 > **Workflow:** Raw Data → SQL Cleaning → Star Schema → Excel Dashboard → Power BI Insights → Python EDA
 
 ### 🗄️ 1. SQL Data Engineering Layer
+<p align="center"> <img src="./Suply%20chain/image/sql.gif" width="85%" /> </p>
+
 **🎯 Objective:** Build a structured relational database optimized for analytics.
 * **Work Done:** Data Cleaning (NULLs, duplicates), Star Schema Design (Fact & Dimension Tables), Primary & Foreign Keys, and ETL Preparation.
 * **Files:** `sql/star_schema.sql`, `sql/ddl.sql`, `sql/dml.sql`
 
 ### 📊 2. Excel Dashboard Layer
 <p align="center"> <img src="./Suply%20chain/image/Dashboard%20Excel.gif" width="90%" /> </p>
+
 **🎯 Objective:** Create an interactive business-friendly KPI dashboard for operational monitoring.
 * **Features:** Revenue analysis, Cost vs Profit tracking, Product performance, and Delivery efficiency with Interactive filters.
 * **File:** `excel/Dashboard.xlsx`
 
 ### 📈 3. Power BI Dashboard Layer
 <p align="center"> <img src="./Suply%20chain/image/p2.gif" width="45%" /> <img src="./Suply%20chain/image/p3.gif" width="45%" /> </p>
+
 **🎯 Objective:** Build an executive-level BI dashboard for strategic decision-making.
 * **Features:** Advanced KPI Cards, Drill-down analysis, Time Intelligence (YTD / MTD), and Category performance.
 * 🔗 **Live Report:** [View Interactive Dashboard](https://app.powerbi.com/groups/me/reports/254e4782-bdef-46ff-a6f3-5f18e4489ad0/50f66f92d057c0501c0e?experience=power-bi)
 
 ### 🐍 4. Python Analysis (EDA Layer)
-**🎯 Objective:** Extract deep statistical insights and business drivers.
+**🎯 Objective:** Extract deep statistical insights and business drivers using data science libraries.
 * **Analyses:** Univariate/Bivariate analysis, Pearson correlation for profit drivers, Trend Analysis, and Shipping Performance.
 * **Libraries:** Pandas, NumPy, Matplotlib, Seaborn.
 * **File:** `python/ecommerce_analysis.ipynb`
@@ -60,5 +64,5 @@ Supply-Chain-Analysis/
 ├── 📊 excel/           # Interactive Excel Dashboard
 ├── 📈 power-bi/        # PBIX Report file
 ├── 🐍 python/          # Jupyter Notebook for EDA
-├── 📂 assets/          # Project images and GIFs
+├── 📂 Suply chain/     # Assets and Images
 └── README.md           # Project documentation
