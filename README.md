@@ -14,17 +14,17 @@
 
 This project is the final graduation milestone for the **Digital Egypt Pioneers Initiative (DEPI)**.  
 
-It represents a full **end-to-end Data Analytics pipeline**, transforming raw supply chain data into a structured **SQL Star Schema**, then analyzing it using Python and visualizing it through Excel and Power BI dashboards.
+It demonstrates a complete **end-to-end Data Analytics pipeline**, transforming raw supply chain data into a structured **SQL Star Schema**, followed by Python analysis and interactive dashboards (Excel + Power BI).
 
 ---
 
-## 🎯 Project Objective  
+## 🎯 Project Objectives  
 
 - Clean and structure raw supply chain data  
 - Design a scalable Star Schema model  
-- Build Fact and Dimension tables using SQL  
-- Perform data analysis using Python  
-- Build interactive dashboards (Excel + Power BI)  
+- Build Fact & Dimension tables using SQL  
+- Perform EDA using Python  
+- Build interactive dashboards using Excel & Power BI  
 
 ---
 
@@ -43,9 +43,9 @@ It represents a full **end-to-end Data Analytics pipeline**, transforming raw su
 ## ⚙️ SQL Data Engineering Layer  
 
 - Data cleaning & preprocessing  
-- Creating relational schema  
-- Defining Primary & Foreign Keys  
-- Building ETL pipeline  
+- Schema design (Star Schema)  
+- Primary & Foreign Keys setup  
+- ETL pipeline implementation  
 
 ---
 
@@ -55,20 +55,21 @@ It represents a full **end-to-end Data Analytics pipeline**, transforming raw su
   <img src="./assets/images/dashboard-excel.gif" width="90%" />
 </p>
 
-### Features:
-- KPI tracking  
-- Revenue analysis  
-- Product performance  
-- Delivery efficiency  
+### 🔥 Key Features:
+- KPI tracking (Revenue, Cost, Profit)  
+- Product performance analysis  
+- Delivery efficiency tracking  
+- Interactive filters  
 
 ---
 
-## 🐍 Python Analysis  
+## 🐍 Python Analysis (EDA)
 
-- Exploratory Data Analysis (EDA)  
-- Data visualization  
-- Trend analysis  
+- Data exploration  
+- Statistical analysis  
+- Correlation analysis  
 - Business insights extraction  
+- Trend analysis  
 
 ---
 
@@ -106,7 +107,7 @@ It represents a full **end-to-end Data Analytics pipeline**, transforming raw su
 ## 📂 Project Structure  
 
 ```bash
-supply-chain-project/
+supply-chain-analysis/
 │
 ├── sql-engineering/
 ├── python-analysis/
