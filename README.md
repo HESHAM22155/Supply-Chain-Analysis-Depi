@@ -1,115 +1,78 @@
-# 🚀 Supply Chain Analysis  
-### DEPI Graduation Project | End-to-End Data Analytics Solution  
-
-<p align="center">
-  <img src="./Suply%20chain/image/Banar.gif" width="100%" />
-</p>
+# 🗄️ SQL Data Engineering Layer  
+### Supply Chain Analysis – DEPI Project  
 
 ---
 
 ## 📌 Project Overview  
-This project is the final graduation milestone for the **Digital Egypt Pioneers Initiative (DEPI)**.  
 
-It demonstrates a complete data engineering and analytics pipeline, transforming raw logistics data into a structured **SQL-based Star Schema**, followed by analytics and interactive dashboards.
+This folder contains the **SQL Data Engineering layer** of the Supply Chain Analysis project.  
 
-🎯 The goal is to build a decision-support system that improves delivery efficiency and optimizes supply chain costs.
-
----
-
-## 🎬 Project Showcase  
-
-### 📊 Excel Dashboard (Interactive Demo)  
-
-<p align="center">
-  <img src="./Suply%20chain/image/Dashboard%20Excel.gif" width="90%" />
-</p>
+The main objective is to transform raw logistics data into a **structured Star Schema database**, enabling efficient analytics and reporting in Power BI and Python.
 
 ---
 
-### 🧱 SQL Data Modeling (Backend Process)  
-- Data cleaning using SQL Server  
-- Building Fact & Dimension tables  
-- Designing Star Schema  
-- Ensuring data integrity  
+## 🎯 Objective  
+
+- Clean and standardize raw data  
+- Design a scalable **Star Schema model**  
+- Build Fact and Dimension tables  
+- Enable data integration for BI tools  
 
 ---
 
-## 🎯 Strategic Objectives  
+## 🧱 Data Modeling (Star Schema)
 
-- 📥 Data Sourcing: Kaggle datasets  
-- 🧱 Data Architecture: Star Schema design  
-- 🗄️ Database Engineering: SQL implementation  
-- 📊 Business Intelligence: Dashboard development  
+### ⭐ Fact Table:
+- `Fact_Sales`
 
----
-
-## ⚙️ Technical Data Pipeline  
-
-### 1️⃣ SQL Engineering  
-
-- Cleaned raw data using SQL scripts  
-- Created Fact & Dimension tables  
-- Defined relationships (PK / FK)  
-- Optimized structure for analytics  
-
-📎 `/sql/`
+### 📁 Dimension Tables:
+- `Dim_Products`
+- `Dim_Customers`
+- `Dim_Location`
 
 ---
 
-### 2️⃣ Excel Dashboard  
+## ⚙️ ETL Process (SQL Pipeline)
 
-- Power Query ETL  
-- KPI tracking  
-- Supply chain performance analysis  
-- Revenue & profitability insights  
-
-📎 `/excel/dashboard.xlsx`
-
----
-
-### 3️⃣ Python Analysis  
-
-- Exploratory Data Analysis (EDA)  
-- Insight generation  
-- Trend analysis  
-
-📎 `/python/analysis.ipynb`
+### 1️⃣ Data Cleaning
+- Removed duplicates  
+- Handled missing values  
+- Standardized column formats  
+- Fixed inconsistent data types  
 
 ---
 
-### 4️⃣ Power BI Dashboard ⚡  
+### 2️⃣ Data Transformation
+- Normalized raw dataset  
+- Split data into Fact & Dimensions  
+- Defined relationships between tables  
 
-- Dynamic KPIs  
-- Time Intelligence (MTD / YTD)  
-- Drill-down analysis  
-- Interactive filters  
+---
 
-🔗 Live Dashboard:  
-https://your-powerbi-link.com  
+### 3️⃣ Data Loading
+- Inserted cleaned data into structured schema  
+- Ensured referential integrity using PK/FK  
 
 ---
 
 ## 📂 Project Structure  
 
 ```bash
-Supply-Chain-Analysis/
+sql-engineering/
+│
+├── ddl/
+│   └── create_tables.sql
+│
+├── dml/
+│   └── insert_data.sql
+│
+├── star_schema/
+│   ├── fact_sales.sql
+│   ├── dim_products.sql
+│   ├── dim_customers.sql
+│   ├── dim_location.sql
 │
 ├── data/
-│   └── raw_data.xlsx
-│
-├── sql/
-│   ├── ddl.sql
-│   └── dml.sql
-│
-├── python/
-│   └── analysis.ipynb
-│
-├── excel/
-│   └── dashboard.xlsx
-│
-├── Suply chain/
-│   └── image/
-│       ├── Banar.gif
-│       └── Dashboard Excel.gif
+│   └── cleaned_csv_files/
 │
 └── README.md
