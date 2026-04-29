@@ -110,7 +110,7 @@ This project addresses these challenges by building a production-grade analytics
 
 ## 👥 Project Team & Methodology
 This project was delivered collaboratively by our specialized data team:
-* **Hesham Ahmed** (Lead Data Analyst)
+* **Hesham Lotfy** 
 * **Abdallah Hossam Eldin**
 * **Fatma Ahmed Ali Fahmy**
 * **Nada Abdelghany Abdeltwap**
