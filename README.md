@@ -15,16 +15,7 @@ It covers the full data lifecycle from **data engineering → analysis → visua
 
 ---
 
-### 🚀 Multi-Layer Architecture  
-
-- 🗄️ **SQL Layer:** Data Engineering & Star Schema Modeling  
-- 🐍 **Python Layer:** Exploratory Data Analysis (EDA) & Insights  
-- 📊 **Excel Layer:** Operational KPI Dashboard  
-- 📈 **Power BI Layer:** Executive Business Intelligence Dashboard  
-
----
-
-# 🏗️ Data Pipeline & Workflow  
+# 🏗️ Multi-Layer Architecture  
 
 ```text
 Raw Data → SQL Cleaning → Star Schema Modeling → Python EDA → Excel Dashboard → Power BI Insights
