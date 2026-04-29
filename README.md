@@ -1,102 +1,114 @@
-# 📦 Supply Chain Analytics Project – DEPI Graduation  
+# 🗄️ 1. SQL DATA ENGINEERING LAYER  
+
+## 📌 Objective  
+Transform raw messy data into a structured relational database.
+
+## ⚙️ Work Done  
+- Data Cleaning (NULL handling, duplicates removal)  
+- Star Schema Design  
+- Fact & Dimension Tables creation  
+- Primary & Foreign Keys relationships  
+- ETL preparation for BI tools  
+
+## 📁 Files  
+- star_schema.sql  
+- ddl.sql  
+- dml.sql  
+
+---
+
+# 🐍 2. PYTHON ANALYSIS (EDA LAYER)
 
 <p align="center">
-  <img src="./Suply%20chain/image/Banar.gif" width="100%" />
+  <img src="./Suply%20chain/image/p1.gif" width="85%" />
 </p>
 
+## 📌 Objective  
+Exploratory Data Analysis to extract business insights.
+
+## 📊 Analyses Performed  
+- Univariate Analysis  
+- Bivariate Analysis  
+- Correlation Analysis  
+- Trend Analysis  
+- Profitability Analysis  
+- Shipping Performance Analysis  
+
+## 📁 Files  
+- ecommerce_analysis.ipynb  
+- p1.gif → Top Products Analysis  
+- p2.gif → Trend Analysis  
+- p3.gif → Profitability Analysis  
+
 ---
 
-## 🧠 Project Summary  
+# 📊 3. EXCEL DASHBOARD LAYER  
 
-This project is an **end-to-end Data Analytics solution** built as part of the **DEPI Graduation Program**.
+<p align="center">
+  <img src="./Suply%20chain/image/Dashboard%20Excel.gif" width="90%" />
+</p>
 
-It transforms raw supply chain data into a full analytical system using:
+## 📌 Objective  
+Create a business-friendly interactive dashboard.
 
-- 🗄️ SQL (Data Engineering Layer)  
-- 🐍 Python (EDA & Insights Layer)  
-- 📊 Excel (Analytical Dashboard Layer)  
-- 📈 Power BI (Interactive BI Layer)  
+## 📊 Features  
+- Revenue Analysis  
+- Cost vs Profit Tracking  
+- Product Performance KPIs  
+- Delivery Efficiency Metrics  
+- Interactive Filtering  
+
+## 📁 File  
+- Dashboard.xlsx  
 
 ---
 
-# 🏗️ Data Pipeline Architecture  
+# 📈 4. POWER BI DASHBOARD LAYER  
 
-```text id="pipeline"
-Raw Data → SQL Cleaning → Star Schema → Python EDA → Excel Dashboard → Power BI Insights
+<p align="center">
+  <img src="./Suply%20chain/image/p2.gif" width="85%" />
+</p>
 
-🗄️ 1. SQL DATA ENGINEERING LAYER
-📌 Purpose:
+<p align="center">
+  <img src="./Suply%20chain/image/p3.gif" width="85%" />
+</p>
 
-Transform raw data into structured relational model.
+## 📌 Objective  
+Advanced interactive Business Intelligence dashboard.
 
-📁 Files:
-Star Schema creation scripts
-Fact table (Fact_Sales)
-Dimension tables:
-Dim_Products
-Dim_Customers
-Dim_Location
-⚙️ What was done:
-Data Cleaning (NULLs, duplicates)
-Schema Design (Star Schema)
-PK / FK Relationships
-ETL Preparation
-🐍 2. PYTHON ANALYSIS (EDA LAYER)
-<p align="center"> <img src="./Suply%20chain/image/p1.gif" width="85%" /> </p>
-📌 Purpose:
+## ⚡ Features  
+- Dynamic KPI cards  
+- Drill-down analysis  
+- Time intelligence (YTD / MTD)  
+- Category performance analysis  
+- Profitability insights  
 
-Exploratory Data Analysis + Insights generation
+## 📁 File  
+- Report.pbix  
 
-📊 Key Analyses:
-Univariate analysis
-Bivariate analysis
-Correlation analysis
-Trend analysis
-Profitability distribution
-Shipping performance
-📁 Files:
-ecommerce_analysis.ipynb
-Charts folder:
-p1.gif → Top Products Analysis
-p2.gif → Trends Analysis
-p3.gif → Profitability Analysis
-📊 3. EXCEL DASHBOARD LAYER
-<p align="center"> <img src="./Suply%20chain/image/Dashboard%20Excel.gif" width="90%" /> </p>
-📌 Purpose:
+---
 
-Business-friendly KPI dashboard
+# 🧱 DATA MODEL (STAR SCHEMA)
 
-📊 Features:
-Revenue analysis
-Cost & Profit tracking
-Product performance
-Delivery efficiency
-Interactive filters
-📁 File:
-Dashboard Excel file (.xlsx)
-📈 4. POWER BI DASHBOARD LAYER
-<p align="center"> <img src="./Suply%20chain/image/p2.gif" width="85%" /> </p> <p align="center"> <img src="./Suply%20chain/image/p3.gif" width="85%" /> </p>
-📌 Purpose:
+<p align="center">
+  <img src="./Suply%20chain/image/Screenshot%202026-04-29%20124541.png" width="90%" />
+</p>
 
-Advanced Business Intelligence Dashboard
+## 📌 Structure  
 
-⚡ Features:
-Dynamic KPIs
-Drill-down analysis
-Time Intelligence (YTD / MTD)
-Category performance
-Profitability insights
-🧱 DATA MODEL (STAR SCHEMA)
-<p align="center"> <img src="./Suply%20chain/image/Screenshot%202026-04-29%20124541.png" width="90%" /> </p>
-📌 Structure:
-Fact Table:
-Fact_Sales
-Dimension Tables:
-Dim_Products
-Dim_Customers
-Dim_Location
+### ⭐ Fact Table:
+- Fact_Sales  
 
+### 📁 Dimension Tables:
+- Dim_Products  
+- Dim_Customers  
+- Dim_Location  
 
+---
+
+# 📁 PROJECT STRUCTURE  
+
+```bash id="structure_clean"
 Supply-Chain-Analysis/
 │
 ├── sql/
@@ -123,28 +135,3 @@ Supply-Chain-Analysis/
 │       ├── Screenshot 2026-04-29 124541.png
 │
 └── README.md
-
-🔥 KEY ACHIEVEMENTS
-
-✔ End-to-End Data Pipeline
-✔ Star Schema Data Modeling
-✔ Multi-tool Analytics System
-✔ Python + SQL + BI Integration
-✔ Business Insight Generation
-
-💡 BUSINESS IMPACT
-Improved supply chain visibility
-Identified inefficiencies in delivery
-Enhanced decision-making
-Optimized product performance tracking
-🛠️ TOOLS USED
-SQL Server
-Python (Pandas, Matplotlib, Seaborn)
-Excel (Power Query, Pivot Tables)
-Power BI
-Kaggle Dataset
-🚀 FINAL NOTE
-
-This project demonstrates a real-world Data Analytics lifecycle, from raw data ingestion to actionable business intelligence dashboards.
-
-
