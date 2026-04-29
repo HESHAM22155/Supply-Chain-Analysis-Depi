@@ -56,13 +56,6 @@ As a specialized data team, we followed a structured **Data Pipeline** approach 
 **🎯 Objective:** Build an executive-level BI dashboard for strategic decision-making.
 * **Features:** Advanced KPI Cards, Drill-down analysis, Time Intelligence (YTD / MTD), and Category performance.
 * 🔗 **Live Report:** [View Interactive Dashboard](https://app.powerbi.com/groups/me/reports/254e4782-bdef-46ff-a6f3-5f18e4489ad0/50f66f92d057c0501c0e?experience=power-bi)
-
-### 🐍 4. Python Analysis (EDA Layer)
-**🎯 Objective:** Extract deep statistical insights and business drivers using data science libraries.
-* **Analyses:** Univariate/Bivariate analysis, Pearson correlation, Heatmaps, and Time-series (YoY) trends.
-* **Libraries:** Pandas, NumPy, Matplotlib, Seaborn.
-* **📂 Source Code:** [View Jupyter Notebook (Python Code)](./Suply%20chain/Python/ecommerce_analysis.ipynb)
-
 #### 📊 EDA Visualization Gallery
 <details>
   <summary><b>Click to expand and view Analysis Charts (13 Charts)</b></summary>
@@ -97,7 +90,6 @@ As a specialized data team, we followed a structured **Data Pipeline** approach 
     </tr>
   </table>
 </details>
-
 ## 🧱 Data Model (Star Schema)
 <p align="center">  
   <img src="./Suply%20chain/image/Screenshot%202026-04-29%20124541.png" width="80%" />  
